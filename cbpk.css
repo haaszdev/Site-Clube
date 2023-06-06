@@ -37,31 +37,31 @@ header {
     display: flex;
     flex-wrap: wrap;
   }
-
+  
   .box {
-    width: 600px;
-    height: 400px;
-    margin: 10px auto;
+    width: 500px;
+    height: 300px;
+    margin: 25px auto;
     text-align: center;
     position: relative;
   }
-
+  
   .box img {
     width: 100%;
     height: auto;
     border-radius: 25px;
   }
-
+  
   .caption {
     padding: 10px;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    bottom: 0;
+    bottom: -32px;
+    left: 0;
     width: 100%;
     text-align: left;
-    border-bottom-left-radius:25px;
-    border-bottom-right-radius:25px;
-    
-    
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
   }
+  
