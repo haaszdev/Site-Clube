@@ -65,3 +65,9 @@ header {
     border-bottom-right-radius: 25px;
   }
   
+  .carrosel{
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: 25px;
+
+  }
