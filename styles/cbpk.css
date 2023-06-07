@@ -5,7 +5,7 @@ header {
     background-color: #004CA2;
     height: 50px;
     width: 100%;
-
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
   }
   
   .logo img {
@@ -33,11 +33,10 @@ header {
     
   }
 
+
   article{
     display: flex;
     flex-wrap: wrap;
-
-
   }
 
   article div{
@@ -97,7 +96,7 @@ header {
     width: 100%;
     height: auto;
     border-radius: 25px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
   
   .caption {
@@ -148,7 +147,7 @@ header {
     padding: 10px;
     margin-top: 10px;
     border-radius: 25px;
-    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   .faq2{
@@ -159,7 +158,7 @@ header {
     padding: 10px;
     margin-top: 10px;
     border-radius: 25px;
-    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   .faq3{
@@ -190,7 +189,7 @@ header {
     grid-template-columns: 40% auto;
     grid-template-rows: auto auto 30%;
     background-color: #004CA2;
-    height: 250px;
+    height: 400px;
     margin-top: 50px;
     
   }
@@ -210,17 +209,18 @@ header {
 
   .logofooter{
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto;
+    grid-template-columns: 25px auto auto;
+    grid-template-rows: auto auto;
+
+    
   }
  
   .logofooter img{
-    grid-column: 1/3;
+    grid-column: 2/3;
+    grid-row: 1/3;
     width: 200px;
     height: auto;
-    justify-self: left;
-    align-content: center;
-    padding-left: 10px;
+    margin-top: 25px;
   }
     
    
