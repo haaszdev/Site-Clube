@@ -5,6 +5,7 @@ header {
     padding: 10px;
     background-color: #004CA2;
     height: 50px;
+    width: 100%;
 
   }
   
@@ -34,6 +35,8 @@ header {
   }
 
   article{
+    display: flex;
+    flex-wrap: wrap;
 
   }
 
@@ -45,6 +48,7 @@ header {
     padding: 10px;
     margin-top: 10px;
     border-radius: 25px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);;
 
   }
 
@@ -61,17 +65,23 @@ header {
     padding: 10px;
     text-align: justify;
   }
+
+  main{
+    width: 1150px;
+    margin: 0 auto;
+  }
   
 
   .container {
     display: flex;
     flex-wrap: wrap;
+    
   }
   
   .box {
     width: 500px;
     height: 300px;
-    margin: 25px auto;
+    margin: 25px auto ;
     text-align: center;
     position: relative;
   }
@@ -80,6 +90,7 @@ header {
     width: 100%;
     height: auto;
     border-radius: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
   }
   
   .caption {
@@ -87,17 +98,85 @@ header {
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    bottom: -32px;
+    bottom: -35px;
     left: 0;
     width: 100%;
     text-align: left;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
   }
-  
-  .carrosel{
-    width: 1050px;
-    margin: 0 auto;
-    margin-top: 25px;
+
+  section{
 
   }
+
+  .faq1{
+    background-color: #F3F6F9;
+    width: 1050px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 25px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);;
+  }
+
+  .faq2{
+    background-color: #F3F6F9;
+    width: 1050px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 25px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);;
+  }
+
+  .faq3{
+    background-color: #F3F6F9;
+    width: 1050px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 25px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);;
+  }
+
+  .faq4{
+    background-color: #F3F6F9;
+    width: 1050px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 25px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);;
+  }
+
+
+  footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto 40%;
+    background-color: #004CA2;
+    height: 250px;
+    margin-top: 50px;
+    
+  }
+
+  .footer2{
+    background-color: red;
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  
+  .footer3{
+    background-color: black;
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+ 
+    
+   
+  
