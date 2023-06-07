@@ -95,7 +95,6 @@ header {
   .box img {
     width: 500px;
     height: 300px;
-    height: auto;
     border-radius: 25px;
 
     -webkit-transition: -webkit-transform .5s ease;
