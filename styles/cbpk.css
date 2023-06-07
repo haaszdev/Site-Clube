@@ -157,8 +157,8 @@ header {
 
   footer{
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto 40%;
+    grid-template-columns: 40% auto;
+    grid-template-rows: auto auto 30%;
     background-color: #004CA2;
     height: 250px;
     margin-top: 50px;
@@ -166,17 +166,30 @@ header {
   }
 
   .footer2{
-    background-color: red;
+    background-color: black;
     grid-column: 2/3;
     grid-row: 3/4;
   }
   
   .footer3{
-    background-color: black;
+    background-color: red;
     grid-column: 1/2;
     grid-row: 3/4;
+    
+  }
+
+  .logofooter{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
   }
  
+  .logofooter img{
+    width: 200px;
+    height: auto;
+    justify-self: center;
+    padding-left: 10px;
+  }
     
    
   
