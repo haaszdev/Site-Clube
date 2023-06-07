@@ -6,7 +6,6 @@ header {
     background-color: #004CA2;
     height: 50px;
     width: 100%;
-
   }
   
   .logo img {
@@ -37,7 +36,6 @@ header {
   article{
     display: flex;
     flex-wrap: wrap;
-
   }
 
   article div{
