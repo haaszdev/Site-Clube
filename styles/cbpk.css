@@ -6,7 +6,7 @@
 
   }
 
-.header {
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -214,6 +214,7 @@ nav ul li a:hover {
     color: white;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 10px;
+
   }
   section h2{
     font-family: var(--fonte-principal) ;
@@ -231,6 +232,7 @@ nav ul li a:hover {
     padding: 10px;
     text-align: justify;
   }
+  
   .texto_destaque{
     color: black;
     font-family: var(--fonte-principal);
@@ -239,6 +241,9 @@ nav ul li a:hover {
     padding: 10px;
     text-align: justify;
     margin-top: 0%;
+    position: relative;
+    bottom: 15px;
+
   }
 
   .faq1{
