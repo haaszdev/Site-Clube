@@ -1,13 +1,22 @@
-header {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+  :root{
+    --fonte-principal: 'Montserrat',sans-serif;
+    --cor-azul: #004CA2;
+
+  }
+
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #004CA2;
+  background-color: var(--cor-azul);
   height: 60px;
   width: 100%;
   box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 20px;
 }
+
 
 .logo img {
   width: 100px;
@@ -30,7 +39,8 @@ nav ul li a {
   text-decoration: none;
   color: white;
   padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--fonte-principal);
+  font-weight: 400;
   -webkit-transition: -webkit-transform .5s ease;
   transition: transform .5s ease;
 }
@@ -50,7 +60,7 @@ nav ul li a:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #004CA2;
+  background-color: var(--cor-azul);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -80,10 +90,15 @@ nav ul li a:hover {
     transform: scaleY(1);
   }
 }
-
-.carrossel{
-  margin-top: 10px;
+  
+.banner{
+  width: 100%;
 }
+
+
+/* .carrossel{
+  margin-top: 10px;
+} */
 
   article{
     display: flex;
@@ -103,15 +118,18 @@ nav ul li a:hover {
   }
 
   article h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color:#004CA2;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    color: var(--cor-azul);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 10px;
   }
 
   article p{
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 26px;
     padding: 10px;
     text-align: justify;
   }
@@ -122,8 +140,9 @@ nav ul li a:hover {
   }
 
   main h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color:#004CA2;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    color: var(--cor-azul);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 10px;
   }
@@ -139,7 +158,7 @@ nav ul li a:hover {
     width: 500px;
     height: 300px;
     margin: 25px auto ;
-    text-align: center;
+    text-align: left;
     position: relative;
   }
   
@@ -160,6 +179,9 @@ nav ul li a:hover {
   .caption {
     padding: 10px;
     color: white;
+    font-family: var(--fonte-principal);
+    font-weight: 800;
+    font-size: 40px;
     position: absolute;
     bottom: 15px;
     left: 0;
@@ -170,36 +192,54 @@ nav ul li a:hover {
   }
 
   section{
-    background-color: #004CA2;
+    background-color: var(--cor-azul);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 1200px;
     height: auto;
     margin: 0 auto;
     margin-top: 50px;
     border-radius: 25px;
-    padding: 25px;
+    padding: 20px;
     display: grid;
     gap: 15px;
   }
-
   section h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color:#004CA2;
+    font-family: var(--fonte-principal) ;
+    font-weight: 800;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+  }
+  section h2{
+    font-family: var(--fonte-principal) ;
+    font-weight: 800;
+    color: var(--cor-azul);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 10px;
   }
 
   section p{
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 26px;
     padding: 10px;
     text-align: justify;
+  }
+  .texto_destaque{
+    color: black;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    font-size: 26px;
+    padding: 10px;
+    text-align: justify;
+    margin-top: 0%;
   }
 
   .faq1{
     background-color: #F3F6F9;
     width: 1100px;
-    height: 400px;
+    height: 200px;
     margin: 0 auto;
     padding: 10px;
     margin-top: 10px;
@@ -210,7 +250,7 @@ nav ul li a:hover {
   .faq2{
     background-color: #F3F6F9;
     width: 1100px;
-    height: 400px;
+    height: 250px;
     margin: 0 auto;
     padding: 10px;
     margin-top: 10px;
@@ -221,7 +261,7 @@ nav ul li a:hover {
   .faq3{
     background-color: #F3F6F9;
     width: 1100px;
-    height: 400px;
+    height: 250px;
     margin: 0 auto;
     padding: 10px;
     margin-top: 10px;
@@ -232,7 +272,7 @@ nav ul li a:hover {
   .faq4{
     background-color: #F3F6F9;
     width: 1100px;
-    height: 400px;
+    height: 200px;
     margin: 0 auto;
     padding: 10px;
     margin-top: 10px;
@@ -245,20 +285,20 @@ nav ul li a:hover {
     display: grid;
     grid-template-columns: 40% auto;
     grid-template-rows: auto auto 30%;
-    background-color: #004CA2;
+    background-color: var(--cor-azul);
     height: 400px;
     margin-top: 50px;
     
   }
 
   .footer2{
-    background-color: black;
+    background-color: rgb(18, 15, 27);
     grid-column: 2/3;
     grid-row: 3/4;
   }
   
   .footer3{
-    background-color: red;
+    background-color: #ff1949;
     grid-column: 1/2;
     grid-row: 3/4;
     
