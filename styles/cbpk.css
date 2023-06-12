@@ -22,6 +22,11 @@
   width: 100px;
   height: auto;
 }
+.logo2 img {
+  width: 100px;
+  height: auto;
+  
+}
 
 nav ul {
   list-style-type: none;
