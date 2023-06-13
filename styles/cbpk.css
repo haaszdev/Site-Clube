@@ -18,14 +18,16 @@ header {
 }
 
 
+
 .logo img {
   width: 100px;
   height: auto;
+  
 }
 .logo2 img {
   width: 100px;
   height: auto;
-  
+  margin-right: 450px;
 }
 
 nav ul {
