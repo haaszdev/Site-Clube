@@ -26,10 +26,6 @@ header {
   z-index: 10;
 }
 
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 .logo img {
   width: 100px;
   height: auto;
@@ -70,6 +66,18 @@ nav ul li a:hover {
   transform: scale(1.1);
 
 }
+.mobile-menu{
+  display: none;
+  cursor:pointer;
+}
+.mobile-menu div{
+  width: 20px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+
+}
+
 /* Estilos para o dropdown */
 .dropdown {
   position: relative;
@@ -345,5 +353,32 @@ nav ul li a:hover {
     margin-top: 1px;
   }
     
+
+@media (max-width: 400px){
+  header {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor-azul);
+    height: 120px;
+    width: 100%;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    z-index: 10;
+  }
+  
+  #menu li {
+    position: absolute;
+    top: 0vh;
+    left: 0;
+    margin: 0;
+    width: 50vw;
+    height: 90vh;
+    background: var(--cor-azul) ;
+    flex-direction: column;
+  }
+}
+  
    
   
