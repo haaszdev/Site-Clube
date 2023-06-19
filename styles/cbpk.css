@@ -8,15 +8,16 @@
 
 header {
   display: flex;
+  position: fixed;
   align-items: center;
   justify-content: space-between;
   background-color: var(--cor-azul);
   height: 60px;
-  width: 110%;
+  width:auto;
   box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 20px;
+  z-index: 10;
 }
-
 
 
 .logo img {
@@ -27,11 +28,12 @@ header {
 .logo2 img {
   width: 100px;
   height: auto;
-  margin-right: 450px;
+  margin-right: 500px;
 }
 
 nav ul {
   list-style-type: none;
+  justify-content: flex-end;
   margin: 0;
   padding: 0;
   display: flex;
@@ -99,7 +101,7 @@ nav ul li a:hover {
 }
   
 .banner{
-  width: 100%;
+  width: 110%;
 }
 
 
@@ -167,6 +169,7 @@ nav ul li a:hover {
     margin: 25px auto ;
     text-align: left;
     position: relative;
+    z-index: 1;
     -webkit-transition: -webkit-transform .5s ease;
     transition: transform .5s ease;
   }
@@ -180,10 +183,6 @@ nav ul li a:hover {
     border-radius: 25px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
-
-  
-
-
 
   .caption {
     padding: 10px;
