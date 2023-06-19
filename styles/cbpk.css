@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+  
+
+
 
   :root{
     --fonte-principal: 'Montserrat',sans-serif;
     --cor-azul: #004CA2;
 
   }
-
+  body{
+    background: url(/assets/background.png) center center;
+    background-size: cover;
+  }
+  
 header {
   display: flex;
   position: fixed;
@@ -19,7 +26,10 @@ header {
   z-index: 10;
 }
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 .logo img {
   width: 100px;
   height: auto;
