@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+  
 
-:root {
-  --fonte-principal: 'Montserrat', sans-serif;
-  --cor-azul: #004CA2;
-}
 
-body {
-  background: url(/assets/background.png) center center;
-  background-size: cover;
-}
 
+  :root{
+    --fonte-principal: 'Montserrat',sans-serif;
+    --cor-azul: #004CA2;
+
+  }
+  body{
+    background: url(/assets/background.png) center center;
+    background-size: cover;
+  }
+  
 header {
   display: flex;
   position: fixed;
@@ -269,17 +272,18 @@ footer {
   margin-top: 50px;
 }
 
-.footer2 {
-  background-color: #182c3c;
-  grid-column: 2/3;
-  grid-row: 3/4;
-}
-
-.footer3 {
-  background-color: #de003c;
-  grid-column: 1/2;
-  grid-row: 3/4;
-}
+  .footer2{
+    background-color: #182c3c;
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  
+  .footer3{
+    background-color: #de003c;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    
+  }
 
 .logofooter {
   display: grid;
