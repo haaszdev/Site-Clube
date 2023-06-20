@@ -9,8 +9,8 @@
 
   }
   body{
-    background: url(/assets/background.png) center center;
-    background-size: cover;
+    /* background: url(/assets/background.png) center center;
+    background-size: cover; */
   }
   
 header {
@@ -322,6 +322,84 @@ nav ul li a:hover {
     margin-top: 50px;
     
   }
+
+  .footer1{
+    display:grid;
+    grid-template-columns: 600px;
+  }
+
+  .footer1 div{
+    margin-left: 25px;
+  }
+
+  .contact{
+    display: grid;
+    grid-template-rows: auto 15px;
+    align-content: center;
+  }
+
+  .contact h1{
+    font-family: var(--fonte-principal) ;
+    font-weight: 1000;
+    color: white;
+    align-self: center;
+    margin-top: 10px;
+
+  }
+
+  .contact p{
+    font-family: var(--fonte-principal) ;
+    font-weight: 1000;
+    color: white;
+    align-self: center;
+
+
+  }
+
+  .mail{
+    display: grid;
+    grid-template-columns: 50px auto;
+    align-content: center;
+  }
+
+  .mail p{
+    font-family: var(--fonte-principal) ;
+    font-weight: 1000;
+    color: white;
+    margin-left: 15px;
+    align-self: center;
+    margin-top: 10px;
+  }
+
+  .mail img{
+    justify-self: center;
+    align-content: center;
+    width: 50px;
+  }
+
+  .location{
+    display: grid;
+    grid-template-columns: 50px auto;
+    align-content: center;
+  }
+
+  .location p{
+    font-family: var(--fonte-principal) ;
+    font-weight: 1000;
+    color: white;
+    margin-left: 15px;
+    align-self: center;
+    margin-top: 10px;
+  }
+
+  .location img{
+    justify-self: center;
+    align-content: center;
+    width: 50px;
+  }
+
+
+
 
   .footer2{
     background-color: #182c3c;
