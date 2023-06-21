@@ -313,6 +313,32 @@ nav ul li a:hover {
     
   }
 
+  .footer1{
+    display: grid;
+    grid-template-rows: ;
+  }
+
+  .footer1 div{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 75px auto;
+  }
+
+  .footer1 p{
+    color: white;
+    font-family: var(--fonte-principal);
+    align-self: center;
+    justify-self: start;
+  }
+
+  .footer1 img{
+    justify-self: center;
+  }
+
+  
+
+
+
   .footer2{
     background-color: #182c3c;
     grid-column: 2/3;
@@ -330,8 +356,6 @@ nav ul li a:hover {
     display: grid;
     grid-template-columns: 25px auto auto;
     grid-template-rows: auto auto;
-
-    
   }
  
   .logofooter img{
@@ -342,6 +366,10 @@ nav ul li a:hover {
     height: auto;
     margin-top: 1px;
   }
+
+
+
+
     
 
 @media (max-width: 800px){
