@@ -8,10 +8,10 @@
     --cor-azul: #004CA2;
 
   }
-  body{
+  /* body{
     background: url(/assets/background.png) center center;
     background-size: cover;
-  }
+  } */
   
 header {
   display: flex;
@@ -372,11 +372,18 @@ nav ul li a:hover {
 
     
 
-@media (max-width: 800px){
-  .logo img, .logo2 img {
+@media (max-width: 1200px){
+  /* .logo img, .logo2 img {
     display: none;
   }
   nav{
     display: none;
+  } */
+
+  .banner{
+    width: auto;
   }
+
+  
 }
+
