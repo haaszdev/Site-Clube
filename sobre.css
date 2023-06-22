@@ -124,24 +124,67 @@
 
     .titulobpk{
         width: auto;
-        height: auto;
     }
 
     .textobpk{
         width: auto;
         height: auto;
+    
+    
     }
-
+    
     .textobpkdiv{
         width: auto;
         height: auto;
     }
-
+    
+    .textobpk p{
+        width: auto;
+        height: auto;;
+    }
+    
     .textobpkside{
+        width: auto;
+        height: auto;
+        grid-template-columns: auto auto;
+    }
+    
+    .textobpkside p{
         width: auto;
         height: auto;
     }
     
+    .textobpkside div{
+        width: auto;
+        height: auto;
+        
+    }
+    .textobpkside img{
+       display: none;
+    }
+    
+    
+    
+    .textobpk2{
+        width: auto;
+        height: auto;
+    
+    }
+    
+    .textobpk2 h1{
+        width: auto;
+        height: auto;
+        
+    }
+    
+    .textobpk2lista{
+        
+    }
+    
+    .textobpk2lista p{
+        width: auto;
+        height: auto;
+    }
 
 }
 
