@@ -16,7 +16,6 @@
 header {
   display: flex;
   position: relative;
-  
   align-items: center;
   justify-content: space-between;
   background-color: var(--cor-azul);
@@ -44,7 +43,6 @@ header {
   
 nav ul {
   list-style-type:none;
-
   margin: 0;
   padding: 0;
   display: flex;
@@ -115,12 +113,9 @@ nav ul li a:hover {
   
 .banner{
   width: 100%;
+  
 }
 
-
-/* .carrossel{
-  margin-top: 10px;
-} */
 
   article{
     display: flex;
@@ -378,15 +373,17 @@ nav ul li a:hover {
     
 
 @media (max-width: 1200px){
-  
   nav{
     display: none;
   } */
 
   .banner{
     width: auto;
+    display: none;
   }
-
+  .banner-celular{
+    display: flex;
+  }
 
   .hamburger-menu{
     display:contents;
