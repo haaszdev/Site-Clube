@@ -169,7 +169,7 @@ nav ul li a:hover {
   .container {
     display: flex;
     flex-wrap: wrap;
-
+    
   }
   
   .box {
@@ -221,7 +221,6 @@ nav ul li a:hover {
     display: grid;
     gap: 15px;
   }
-
   section h1{
     font-family: var(--fonte-principal) ;
     font-weight: 800;
@@ -382,7 +381,6 @@ nav ul li a:hover {
 
   .article{
     width: auto;
-    height: auto;
   }
 
   .article div{
@@ -417,6 +415,7 @@ nav ul li a:hover {
 
   .container{
     width: auto;
+    display: none;
   }
   .banner-celular{
     display: flex;
@@ -489,13 +488,21 @@ nav ul li a:hover {
     width: 300px;
     height: 100%;
     margin: 0;
-    padding: 80px 0;
+    padding: 30px 30px;
     list-style: none;
     background-color: var(--cor-azul);
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
     transition-duration: 0.25s;
   }
-  
+
+  .menu__box img{
+      width: 170px;
+
+  }
+  .alinhamento-logo{
+    padding-bottom: 20px;
+    padding-left: 30px;
+  }
   .menu__item {
     display: block;
     padding: 12px 24px;
@@ -518,13 +525,10 @@ nav ul li a:hover {
 
   .article p{
     font-size: 12px;
+ 
   }
  
 }
-
-  
-
-
 
 
 
