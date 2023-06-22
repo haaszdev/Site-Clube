@@ -118,10 +118,31 @@
     font-size: 25px;
     padding: 10px;
     text-align: justify;
+}
 
+@media (max-width: 1200px){
+
+    .titulobpk{
+        width: auto;
+        height: auto;
+    }
+
+    .textobpk{
+        width: auto;
+        height: auto;
+    }
+
+    .textobpkdiv{
+        width: auto;
+        height: auto;
+    }
+
+    .textobpkside{
+        width: auto;
+        height: auto;
+    }
     
 
-    
 }
 
 
