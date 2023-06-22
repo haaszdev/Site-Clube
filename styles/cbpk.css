@@ -169,7 +169,7 @@ nav ul li a:hover {
   .container {
     display: flex;
     flex-wrap: wrap;
-    
+
   }
   
   .box {
@@ -221,6 +221,7 @@ nav ul li a:hover {
     display: grid;
     gap: 15px;
   }
+
   section h1{
     font-family: var(--fonte-principal) ;
     font-weight: 800;
@@ -381,6 +382,7 @@ nav ul li a:hover {
 
   .article{
     width: auto;
+    height: auto;
   }
 
   .article div{
@@ -415,7 +417,6 @@ nav ul li a:hover {
 
   .container{
     width: auto;
-    display: none;
   }
   .banner-celular{
     display: flex;
@@ -520,6 +521,10 @@ nav ul li a:hover {
   }
  
 }
+
+  
+
+
 
 
 
