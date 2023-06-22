@@ -43,7 +43,6 @@ header {
   
 nav ul {
   list-style-type:none;
-
   margin: 0;
   padding: 0;
   display: flex;
@@ -114,12 +113,9 @@ nav ul li a:hover {
   
 .banner{
   width: 100%;
+  
 }
 
-
-/* .carrossel{
-  margin-top: 10px;
-} */
 
   article{
     display: flex;
@@ -419,12 +415,15 @@ nav ul li a:hover {
 
   .container{
     width: auto;
+    display: none;
+  }
+  .banner-celular{
+    display: flex;
   }
 
-  
 
-  .hamburger-menu {
-    display: contents;
+  .hamburger-menu{
+    display:contents;
   }
   
   #menu__toggle {
