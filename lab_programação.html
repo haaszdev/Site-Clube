@@ -10,7 +10,8 @@
     <title>Laboratório de Programação</title>
 </head>
 <body>
-    
+
+<!-- Cabeçalho -->
   <header>
     <div class="logo">
       <a href="cbpk.html">
@@ -23,11 +24,30 @@
       </a>
     </div>
 
-    <nav>
+    <div class="hamburger">
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+
+        <ul class="menu__box">
+          <div class="alinhamento-logo">
+        <img src="/assets/logo clube.png" alt="Logo Clube" href="/cbpk.html">
+          </div>
+          <li><a class="menu__item" href="/cbpk.html#sobreGo">O que é?</a></li>
+          <li><a class="menu__item" href="/cbpk.html#labsGo">Laboratórios</a></li>
+          <li><a class="menu__item" href="/cbpk.html#perguntasGo">Perguntas frequentes</a></li>
+          <li><a class="menu__item" href="#">Contatos</a></li>
+          <li><a class="menu__item" href="/sobre.html">Biopark</a></li>
+        </ul>
+      </div>
+    </div>
+    <nav style="top: auto;">
       <ul>
-        <li><a href="#SobreGo">O que é?</a></li>
+        <li><a href="/cbpk.html#sobreGo">O que é?</a></li>
         <li class="dropdown">
-          <a href="/cbpk.html#labsgo" class="dropbtn">Laboratórios</a>
+          <a href="/cbpk.html#labsGo" class="dropbtn">Laboratórios</a>
           <div class="dropdown-content">
             <a href="lab_ciencias.html">Laboratório de ciências</a>
             <a href="lab_programação.html">Laboratório de programação</a>
@@ -35,7 +55,7 @@
             <a href="lab_inovação.html">Laboratório inovação</a>
           </div>
         </li>
-        <li><a href="/cbpk.html#PerguntasGo">Perguntas frequentes</a></li>
+        <li><a href="/cbpk.html#perguntasGo">Perguntas frequentes</a></li>
         <li><a href="/sobre.html">Biopark</a></li>
         <li><a href="#">Contatos</a></li>
       </ul>
@@ -43,41 +63,18 @@
   </header>
   
     
-      <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/laboratorio programação.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/banner pc.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/banner pc.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+  <div class="laranja"></div>
+  <banner class="banner"></banner>
+  <img class="banner" src="assets/laboratorio programação.png" alt="imagem principal">
+  <div class="laranja2"></div>
 
       <div class="h1tittle">
         <h1>Explore o <strong><span class="bold">Laboratório de Biologia</span></strong>, onde a ciência ganha vida.</h1>
       </div>
 
       <article>
-        <div class="text">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum tenetur accusamus deleniti delectus nostrum sed dolores aperiam velit similique eaque quae consectetur voluptas, inventore consequuntur impedit exercitationem ea perspiciatis eius.
-          Corporis, nulla quia fuga minus, fugiat delectus incidunt ducimus consectetur optio sint perspiciatis sit dolorum? Voluptatibus asperiores molestiae nisi, quo quae a laboriosam adipisci explicabo beatae deserunt suscipit, nihil ipsum.</p>
+        <div >
+          <p>Aqui, as crianças aprendem de forma divertida e envolvente, criando jogos, sites, animações e aplicativos interativos com docentes especializados. Elas desenvolvem habilidades tecnológicas desde cedo, aprendendo a lógica por trás da codificação e a resolver problemas de forma criativa. Em um ambiente colaborativo, as crianças trabalham em equipe, desenvolvendo pensamento lógico, resolução de problemas e habilidades de trabalho em equipe. No Laboratório de Programação, os pequenos programadores se tornam os inovadores e criadores do futuro onde cada vez mais são requisitados os serviçoes de um grande programador.</p>
         </div>
       </article>
 
