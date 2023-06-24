@@ -6,6 +6,7 @@
   :root{
     --fonte-principal: 'Montserrat',sans-serif;
     --cor-azul: #004CA2;
+    --cor-laranja: #FC6435;
 
   }
   /* body{
@@ -465,6 +466,8 @@ nav ul li a:hover {
 
 
 @media (max-width: 1200px){
+
+
   nav{
     display: none;
   } 
@@ -643,11 +646,19 @@ nav ul li a:hover {
   }
 
   
-  
+  body p{
+    font-size: 15px;
+  }
+
+  body h1{
+    font-size: 25px;
+  }
 }
 
 
 @media (max-width: 600px){
+
+  
 
   .logos{
     grid-template-columns: 90px auto;
