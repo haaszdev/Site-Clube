@@ -133,6 +133,13 @@ nav ul li a:hover {
 .banner{
   width: 100%;
 }
+.banner2{
+  width: 100%;
+  display: none;
+}
+ .banner3{
+  width: 100%;
+ }
 
  #sobreGo{
   width: 100%;
@@ -459,12 +466,6 @@ nav ul li a:hover {
 
 
 
-
-
-
-
-
-
 @media (max-width: 1200px){
 
 
@@ -476,6 +477,7 @@ nav ul li a:hover {
     width: auto;
   }
 
+  
   .article{
     width: auto;
   }
@@ -513,6 +515,7 @@ nav ul li a:hover {
   .container{
     width: auto;
   }
+  
   .banner-celular{
     display: flex;
   }
@@ -656,6 +659,19 @@ nav ul li a:hover {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 600px){
 
   
@@ -670,6 +686,15 @@ nav ul li a:hover {
   
   .logo2 img {
       width: 75px;
+  }
+
+  .banner{
+    display: none;
+  }
+
+  .banner2{
+    width: 100%;
+    display: flex;
   }
 
   container {
