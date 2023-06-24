@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
 
-  :root{
+:root{
     --fonte-principal: 'Montserrat',sans-serif;
     --cor-azul: #004CA2;
+    --cor-laranja: #FC6435;
 
   }
 
@@ -16,7 +17,7 @@
 .h1tittle h1{
     font-family: var(--fonte-principal);
     font-weight: 600;
-    color: var(--cor-azul);
+    color: var(--cor-laranja);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 10px;
 }
@@ -25,7 +26,8 @@
     color:#004CA2;
 }
 
-.descri{
+
+/* .descri{
    
     margin: 0 auto;
     display: flex;
@@ -35,11 +37,111 @@
 
 }
 
+.descri a {
+    display: block;
+  }
+
 .descri a img{
     width: 575px;
     height: 350px;
+    border-radius: 25px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    object-fit: cover;
 
 }
+
+.descri a img:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+
+.descri div{
+    width: 575px;
+    height: 350px;
+    background-color: #E5F1FF;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+
+} */
+
+
+.descri {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.descri a {
+  display: block;
+  width: 575px;
+  height: 350px;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.descri a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.descri a:hover img {
+  transform: scale(1.1);
+}
+
+.descri div {
+  width: 575px;
+  height: 350px;
+  background-color: #E5F1FF;
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.descri2{
+    margin: 0 auto;
+    display: grid;
+    width: 1200px;
+    border-radius: 25px;
+    padding: 25px;
+    background-color: #E5F1FF;
+
+}
+
+.descri2 h1{
+    padding: 25px;
+    justify-content: left;
+    
+}
+
+.descri2 img{
+    width: 750px;
+    height: 450px;
+    border-radius: 25px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-self: center;
+}
+
+.descri2 h1{
+    font-family: var(--fonte-principal);
+    font-size: 30px;
+}
+
+
+
+
 
 
 
