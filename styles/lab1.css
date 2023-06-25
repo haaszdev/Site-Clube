@@ -139,6 +139,43 @@
     font-size: 30px;
 }
 
+@media (max-width: 1200px){
+
+    .h1tittle{
+        width: auto;
+    }
+    
+    .descri a{
+        width: auto;
+        height: 250px;
+       
+
+    }
+
+
+    .descri2{
+        width: auto;
+    }
+
+    .descri2 img{
+        width: 550px;
+        height: 400px;
+
+    }
+}
+
+@media (max-width: 600px){
+
+    .descri2 img{
+        width: 300px;
+        height: 200px;
+
+    }
+
+}
+
+
+
 
 
 
