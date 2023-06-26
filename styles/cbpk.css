@@ -568,6 +568,10 @@ nav ul li a:hover {
   
   }
 
+  .whats{
+    justify-self: end;
+  }
+
   
 
 
@@ -945,6 +949,13 @@ nav ul li a:hover {
   .footerbaixo{
     grid-template-columns: 40% auto;
   }
+
+  .whats img{
+    width: 100px;
+    align-self: end;
+    
+  }
+
 
 
 
