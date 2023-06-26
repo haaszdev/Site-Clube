@@ -384,42 +384,132 @@ nav ul li a:hover {
   }
 
 
-  footer{
+  .footer{
     display: grid;
-    grid-template-columns: 40% auto;
-    grid-template-rows: 600px auto 150px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
     background-color: var(--cor-azul);
-    height: 600px;
-    width: auto;
+    height: 300px;
+    width: 100%;
     margin-top: 50px;
     background-color: var(--cor-azul);
     
   }
 
-  .footer1{
-    display: grid;
+  .footer div{
     
-  }
-
-  .footer1 div{
-    border: 1px solid black;
     display: grid;
-    grid-template-columns: 75px auto;
-  }
-
-  .footer1 p{
-    color: white;
-    font-family: var(--fonte-principal);
-    align-self: center;
-    justify-self: start;
-  }
-
-  .footer1 img{
-    justify-self: center;
-    align-self: center;
   }
 
   
+
+  .contact{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+
+  .contact h1{
+    grid-row: 1/2;
+    color: white;
+    font-size: 50px;
+    justify-self: start;
+    margin-left: 20px;
+  }
+
+  .contact p{
+    color: white;
+    font-size: 25px;
+    grid-row: 2/3;
+    justify-self: start;
+    margin-left: 50px;
+    margin-top: -40px;
+   
+  }
+
+  .mail{
+    grid-column: 1/2;
+    grid-row: 2/2;
+    display: grid;
+    grid-template-columns: 75px auto;
+    margin-left: 25px;
+  }
+
+  .mail img{
+    align-self: center;
+
+  }
+
+  .mail p{
+    color: white;
+    align-self: center;
+    font-size: 20px;
+
+  }
+
+  .location{
+    grid-column: 1/2;
+    grid-row: 3/3;
+    display: grid;
+    grid-template-columns: 75px auto;
+    margin-left: 25px;
+  }
+
+  .location img{
+    align-self: center;
+
+  }
+
+  .location p{
+    color: white;
+    align-self: center;
+    font-size: 20px;
+
+  }
+
+
+
+  .institucional{
+    grid-row: 1/3;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 33% auto auto;
+    margin-top: 10px;
+    width: auto;
+  }
+
+  .institucional img{
+    grid-column: 2/3;
+    justify-self: end;
+    width: auto;
+  }
+
+  .institucional h1{
+    color: white;
+    justify-self: center;
+    width: auto;
+  }
+
+  .institucional ul{
+    color: white;
+    grid-column: 3/3;
+    grid-row: 2/2;
+    justify-self: center;
+    margin-top: -80px;
+    font-size: 20px;
+    width: auto;
+  }
+
+  .footerbaixo{
+    display: grid;
+    grid-template-columns: 30% auto;
+    height: 80px;
+  }
+
+
+  
+ 
 
 
 
@@ -427,6 +517,33 @@ nav ul li a:hover {
     background-color: #182c3c;
     grid-column: 2/3;
     grid-row: 3/4;
+    display: grid;
+    height: 80px;
+  }
+
+  .insta{
+    display: grid;
+    grid-template-columns: 70px auto;
+  }
+
+  .insta h2{
+    align-self: center;
+  }
+
+  .insta img{
+    align-self: center;
+  }
+
+  .footer2 div{
+    align-self: center;
+    justify-self: center;
+  }
+
+
+
+  .footer2 h2{
+    color: white;
+    font-size: 25px;
   }
   
   .footer3{
@@ -434,6 +551,7 @@ nav ul li a:hover {
     grid-column: 1/2;
     grid-row: 3/4;
     display: grid;
+    height: 80px;
     
   }
 
@@ -445,10 +563,12 @@ nav ul li a:hover {
   .logofooter img{
     grid-column: 1/3;
     grid-row: 1/3;
-    width: 300px;
-    height: auto;
+    width: 150px;
+    
   
   }
+
+  
 
 
 
@@ -748,5 +868,86 @@ nav ul li a:hover {
   .texto_destaque{
     font-size: 15px;
   }
+
+  .footer{
+    height: 250px;
+  }
+
+  .contact h1{
+    font-size: 25px;
+  }
+
+  .contact p{
+    font-size: 15px;
+  }
+
+  .mail{
+    margin-top: -50px;
+    grid-row: 3/3;
+  }
+
+  .mail img{
+    width: 25px;
+  }
+
+  .mail p{
+    font-size: 15px;
+    margin-left: -25px;
+  }
+
+  .location{
+    margin-top: -50px;
+    grid-row: 2/2;
+  }
+
+  .location img{
+    width: 25px;
+  }
+
+  .location p{
+    font-size: 15px;
+    margin-left: -25px;
+  }
+
+  .insta h2{
+    font-size: 15px;
+  }
+
+  .insta img{
+    width: 40px;
+    margin-left: 10px;
+  }
+
+  .institucional h1{
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .institucional ul{
+    font-size: 15px;
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin: 0;
+    margin-top: -50px;
+  }
+
+  .institucional img{
+    grid-column: 1/2;
+    width: 50px;
+    margin-left: -20px;
+    
+  }
+
+  .logofooter img{
+    width: 150px;
+  }
+
+  .footerbaixo{
+    grid-template-columns: 40% auto;
+  }
+
+
+
+
 }
 
