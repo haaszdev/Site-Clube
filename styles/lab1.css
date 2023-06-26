@@ -106,6 +106,10 @@
   box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.descri div p{
+    font-size: 20px;
+}
+
 
 
 .descri2{
@@ -146,8 +150,10 @@
     .descri a{
         width: auto;
         height: 250px;
-       
+    }
 
+    .descri div{
+        height: auto;
     }
 
 
@@ -169,5 +175,7 @@
         height: 200px;
 
     }
+
+    
 
 }
